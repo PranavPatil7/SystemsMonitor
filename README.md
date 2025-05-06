@@ -2,23 +2,19 @@
 
 I built a terminal-based system monitoring tool in C++ that replicates the functionality of 'htop', displaying real-time CPU usage, memory stats, and active process details by parsing data from the Linux /proc filesystem.
 
-I applied object-oriented programming principles to design modular components for process management, CPU statistics, and memory monitoring, ensuring clean architecture and code reusability.
+Applied object-oriented programming principles to design modular components for process management, CPU statistics, and memory monitoring, ensuring clean architecture and code reusability.
 
-I used the ncurses library to implement a responsive, text-based user interface that updates system metrics dynamically, providing an intuitive and interactive user experience directly in the terminal.
+Used the ncurses library to implement a responsive, text-based user interface that updates system metrics dynamically, providing an intuitive and interactive user experience directly in the terminal.
 
 ![System Monitor](images/monitor.png)
 
-## Udacity Linux Workspace
-[Udacity](https://www.udacity.com/) provides a browser-based Linux [Workspace](https://engineering.udacity.com/creating-a-gpu-enhanced-virtual-desktop-for-udacity-497bdd91a505) for students. 
-
-You are welcome to develop this project on your local machine, and you are not required to use the Udacity Workspace. However, the Workspace provides a convenient and consistent Linux development environment we encourage you to try.
+#
 
 ## ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
 
-Within the Udacity Workspace, `.student_bashrc` automatically installs ncurses every time you launch the Workspace.
 
-If you are not using the Workspace, install ncurses within your own Linux environment: `sudo apt install libncurses5-dev libncursesw5-dev`
+
 
 ## Make
 This project uses [Make](https://www.gnu.org/software/make/). The Makefile has four targets:
@@ -35,8 +31,6 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 
 3. Run the resulting executable: `./build/monitor`
 ![Starting System Monitor](images/starting_monitor.png)
-
-4. Follow along with the lesson.
 
 5. Implement the `System`, `Process`, and `Processor` classes, as well as functions within the `LinuxParser` namespace.
 
