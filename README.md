@@ -1,8 +1,10 @@
 # CppND-System-Monitor
 
-Starter code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
+I built a terminal-based system monitoring tool in C++ that replicates the functionality of 'htop', displaying real-time CPU usage, memory stats, and active process details by parsing data from the Linux /proc filesystem.
 
-Follow along with the classroom lesson to complete the project!
+I applied object-oriented programming principles to design modular components for process management, CPU statistics, and memory monitoring, ensuring clean architecture and code reusability.
+
+I used the ncurses library to implement a responsive, text-based user interface that updates system metrics dynamically, providing an intuitive and interactive user experience directly in the terminal.
 
 ![System Monitor](images/monitor.png)
 
